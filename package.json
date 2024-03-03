@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "dependencies": {
+    "@ebay/skin": "17.1.1",
     "marko": "^5.32.7"
   },
   "devDependencies": {
