@@ -5,6 +5,7 @@
   "type": "module",
   "dependencies": {
     "@ebay/skin": "17.1.1",
+    "@marko-tags/context": "2.2.2",
     "marko": "^5.32.7"
   },
   "devDependencies": {

@@ -1,5 +1,3 @@
-export interface Input {}
-
 <div.mouse-mask style=`--mouse-x:${state.x};--mouse-y:${state.y};`/>
 
 class {
@@ -10,6 +8,7 @@ class {
     this.boundMove = this.move.bind(this);
   }
   onMount() {
+    console.log('mouse-mask onMount', this)
     window.addEventListener("mousemove", this.boundMove);
   }
   onDestroy() {
@@ -20,6 +19,8 @@ class {
     this.state.y = e.clientY + "px";
   }
 }
+
+$ console.log('single line JS')
 
 style {
   .mouse-mask {    
